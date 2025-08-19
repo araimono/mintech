@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>みんなのテクノロジーお披露目会 - みんてく🎉</title>
+    
+    <!-- JavaScript有効化検出 -->
+    <script>document.documentElement.classList.remove('no-js');</script>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="クリエイターや技術者がつくった作品や知識を自由に発表して、新しい出会いやコラボが生まれる楽しい交流イベント。2025年9月13日開催！">
+    <meta name="keywords" content="テクノロジー,AI,Web3,メタバース,イベント,交流会,展示,トークセッション,みんてく">
+    <meta name="author" content="みんてく実行委員会">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ktiughre.manus.space/">
+    <meta property="og:title" content="みんなのテクノロジーお披露目会 - みんてく🎉">
+    <meta property="og:description" content="クリエイターや技術者がつくった作品や知識を自由に発表して、新しい出会いやコラボが生まれる楽しい交流イベント。2025年9月13日（土）11:00-18:30 AiHUB株式会社 神田オフィスにて開催！">
+    <meta property="og:image" content="https://ktiughre.manus.space/images/ogp-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="みんてく - みんなのテクノロジーお披露目会">
+    <meta property="og:locale" content="ja_JP">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ktiughre.manus.space/">
+    <meta property="twitter:title" content="みんなのテクノロジーお披露目会 - みんてく🎉">
+    <meta property="twitter:description" content="クリエイターや技術者がつくった作品や知識を自由に発表して、新しい出会いやコラボが生まれる楽しい交流イベント。2025年9月13日開催！">
+    <meta property="twitter:image" content="https://ktiughre.manus.space/images/ogp-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/7.png">
+    <link rel="apple-touch-icon" href="images/7.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/minteku-logo.png" alt="みんてく" class="logo-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="logo-fallback" style="display: none;">
+                    <span class="logo-text">みんてく</span>
+                    <span class="logo-emoji">🎉</span>
+                </div>
+            </div>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <div class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">イベント概要</a>
+                <a href="#activities" class="nav-link">特徴</a>
+                <a href="#exhibitors" class="nav-link">出展コミュニティ</a>
+                <a href="#details" class="nav-link">詳細情報</a>
+                <a href="#contact" class="nav-link">お問い合わせ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero parallax-container">
+        <div class="hero-background parallax-layer-3">
+            <div class="gradient-bg parallax-optimized"></div>
+            <div class="floating-icons parallax-layer-2">
+                <i class="fab fa-react floating-icon parallax-optimized" style="--delay: 0s;"></i>
+                <i class="fas fa-robot floating-icon parallax-optimized" style="--delay: 1s;"></i>
+                <i class="fab fa-ethereum floating-icon parallax-optimized" style="--delay: 2s;"></i>
+                <i class="fas fa-vr-cardboard floating-icon parallax-optimized" style="--delay: 3s;"></i>
+                <i class="fas fa-microchip floating-icon parallax-optimized" style="--delay: 4s;"></i>
+                <i class="fab fa-python floating-icon parallax-optimized" style="--delay: 5s;"></i>
+            </div>
+            <!-- Additional Parallax Layers -->
+            <div class="parallax-layer-1">
+                <div class="floating-icons">
+                    <i class="fas fa-code floating-icon parallax-optimized" style="--delay: 6s; top: 20%; left: 15%;"></i>
+                    <i class="fas fa-brain floating-icon parallax-optimized" style="--delay: 7s; top: 70%; left: 80%;"></i>
+                    <i class="fab fa-bitcoin floating-icon parallax-optimized" style="--delay: 8s; top: 40%; left: 90%;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-content parallax-layer-1 parallax-optimized">
+            <h1 class="hero-title parallax-text">
+                <span class="title-main">みんなのテクノロジー</span>
+                <span class="title-sub">お披露目会</span>
+            </h1>
+            <div class="hero-logo-container parallax-optimized">
+                <img src="images/minteku-hero-logo.png" alt="みんてく" class="hero-logo-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <h2 class="hero-subtitle-fallback" style="display: none;">みんてく🎉</h2>
+            </div>
+            <div class="hero-info parallax-optimized">
+                <div class="info-item parallax-delay-1">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>2025年9月13日（土）11:00〜16:00</span>
+                </div>
+                <div class="info-item parallax-delay-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>AiHUB株式会社 神田オフィス</span>
+                </div>
+                <div class="info-item parallax-delay-3">
+                    <i class="fas fa-ticket-alt"></i>
+                    <span>参加費無料</span>
+                </div>
+            </div>
+            <button class="cta-button parallax-optimized" onclick="scrollToSection('about')">
+                <span>詳細を見る</span>
+                <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about parallax-container">
+        <div class="container">
+            <div class="section-header parallax-optimized">
+                <h2 class="section-title animate-on-scroll">🎯 どんなイベント？</h2>
+                <p class="section-description animate-on-scroll">
+                    クリエイターや技術者がつくった作品や知識を自由に発表して、新しい出会いやコラボが生まれる楽しい交流イベントです✨ 
+                    みんなで楽しく交流して、新しいアイデアや友達をつくりましょう！
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Activities Section -->
+    <section id="activities" class="activities parallax-container">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">✨ こんなことができるよ！</h2>
+            <div class="activities-grid">
+                <div class="activity-card animate-on-scroll">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="card-title">技術作品の展示</h3>
+                    <p class="card-description">
+                        AI、Web3、メタバースなど、どんな分野の技術作品でも展示できます！
+                        ジャンルは問わないので、自由に発表してくださいね😊
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll">
+                    <div class="card-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3 class="card-title">トークセッション</h3>
+                    <p class="card-description">
+                        自分の活動や技術についてみんなに発表できるチャンスです！
+                        みんなで知識をシェアして、一緒に学び合いましょう🚀
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="card-title">自由な交流</h3>
+                    <p class="card-description">
+                        出展者も来場者もみんなで気軽におしゃべりや情報交換ができる環境を用意しています！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Exhibitors Section -->
+    <section id="exhibitors" class="exhibitors parallax-container">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">🏢 出展コミュニティ</h2>
+            <p class="section-description animate-on-scroll">
+                今回のイベントに参加する素晴らしい出展者の皆さんをご紹介します！
+            </p>
+            <div class="exhibitors-grid">
+                <div class="exhibitor-card animate-on-scroll">
+                    <div class="exhibitor-logo">
+                        <img src="images/aicommu-logo.png" alt="Aicommu" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-placeholder" style="display: none;">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="exhibitor-content">
+                        <h3 class="exhibitor-name">Aicommu</h3>
+                        <p class="exhibitor-description">
+                            Aicommuは、AI×web3×OSSの力で価値を増幅させ、学び・交流・プロジェクト推進を加速させるAI時代の自立分散型コミュニティです。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="exhibitor-card animate-on-scroll">
+                    <div class="exhibitor-logo">
+                        <img src="images/4dl-logo.png" alt="4DL Technologies株式会社" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-placeholder" style="display: none;">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="exhibitor-content">
+                        <h3 class="exhibitor-name">4DL Technologies株式会社</h3>
+                        <p class="exhibitor-description">
+                            専門分野で生成AIを使いこなす人材向けリスキリングサービスを企画・開発。"AI Native X"というコンセプトを軸にトレーニングやAIエージェント開発・導入支援を通じて課題解決を提供しています。また四次元学習環境開発を見据えてメタバース/XRについても調査研究を進めています。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="exhibitor-card animate-on-scroll">
+                    <div class="exhibitor-logo">
+                        <img src="images/socialnova-logo.png" alt="ソーシャルノバ" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-placeholder" style="display: none;">
+                            <i class="fas fa-vr-cardboard"></i>
+                        </div>
+                    </div>
+                    <div class="exhibitor-content">
+                        <h3 class="exhibitor-name">ソーシャルノバ</h3>
+                        <p class="exhibitor-description">
+                            メタバースのイベント・コミュニティ・居場所づくりを手掛けるバーチャルクリエイティブカンパニー。リアルとバーチャルを融合させた新しい体験作りや、バーチャルタレントのエージェント事業などにも挑戦し、バーチャル市民の仕事の場の創出を目指しています。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="exhibitor-card animate-on-scroll">
+                    <div class="exhibitor-logo">
+                        <img src="images/jxc-logo.png" alt="Japan X College" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-placeholder" style="display: none;">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="exhibitor-content">
+                        <h3 class="exhibitor-name">Japan X College</h3>
+                        <p class="exhibitor-description">
+                            JXCは、場所や経済背景に左右されず、挑戦する若者ヘヒトモノカネの環流を作るべく"分散型メディア"を目指している団体です。AI編集・自動翻訳・DAO的な共同運営モデルを採用し、若者を対象に、定点観測的なインタビューを行い、社会的インパクトを可視化。電子書籍の出版まで行います。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="exhibitor-card animate-on-scroll">
+                    <div class="exhibitor-logo">
+                        <img src="images/osakana-logo.png" alt="おさかなだお長崎" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-placeholder" style="display: none;">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                    </div>
+                    <div class="exhibitor-content">
+                        <h3 class="exhibitor-name">おさかなだお長崎</h3>
+                        <p class="exhibitor-description">
+                            「長崎のうまいサカナの未来をつくる」を活動テーマにしたLocal DAO（分散型自律組織）です。Web3の技術を活用し、地域共創とテクノロジーを融合させたプロジェクトで100名ほどが参加しています！
+                        </p>
+                    </div>
+                </div>
+
+                <div class="exhibitor-card animate-on-scroll">
+                    <div class="exhibitor-logo">
+                        <img src="images/3dkobo-logo.png" alt="3DKOBO" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-placeholder" style="display: none;">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="exhibitor-content">
+                        <h3 class="exhibitor-name">3DKOBO</h3>
+                        <p class="exhibitor-description">
+                            3Dモデリングやイベント主催を行うメタバースのものづくりや文化を作るメタクリエイター。3Dプリンターを活用し、コスプレ製作、オリジナルフィギュア、サバイバルゲーム用パーツの制作など、リアルとバーチャルをつなぐクリエイティブ活動に取り組んでいます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section id="details" class="details">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">📅 開催詳細</h2>
+            <div class="details-grid">
+                <div class="details-card animate-on-scroll">
+                    <h3>基本情報</h3>
+                    <div class="details-table">
+                        <div class="table-row">
+                            <span class="label">イベント名</span>
+                            <span class="value">みんなのテクノロジーお披露目会（みんてく）</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="label">開催日時</span>
+                            <span class="value">2025年9月13日（土）11:00〜16:00</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="label">開催場所</span>
+                            <span class="value">AiHUB株式会社 神田オフィス</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="label">参加費用</span>
+                            <span class="value">無料！🎉</span>
+                        </div>
+                        <div class="table-row">
+                            <span class="label">予定参加者数</span>
+                            <span class="value">延べ40名〜60名</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details-card animate-on-scroll">
+                    <h3>⏰ 1日のスケジュール</h3>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span class="time">9:00</span>
+                            <span class="event">スタッフ入り</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">11:00</span>
+                            <span class="event">イベント開場・トークイベント・ブース展示開始</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">16:00</span>
+                            <span class="event">イベント終了</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">16:15</span>
+                            <span class="event">出展者交流会開始🍻</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">18:30</span>
+                            <span class="event">出展者交流会終了</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">19:00</span>
+                            <span class="event">撤収完了</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="facilities">
+                <h3 class="animate-on-scroll">🏢 会場の設備について</h3>
+                <div class="facilities-grid">
+                    <div class="facility-card animate-on-scroll">
+                        <h4>📺 みんなで使える設備</h4>
+                        <ul>
+                            <li>80インチモニタ</li>
+                            <li>マイク</li>
+                            <li>スピーカー</li>
+                            <li>椅子30脚</li>
+                        </ul>
+                    </div>
+                    <div class="facility-card animate-on-scroll">
+                        <h4>🪑 出展ブースの設備</h4>
+                        <div class="facility-content">
+                            <div class="facility-image">
+                                <img src="images/office-facility.jpg" alt="会場の様子" class="facility-photo">
+                            </div>
+                            <ul class="facility-list">
+                                <li>150cm×70cm 台形テーブル</li>
+                                <li>椅子2-3脚</li>
+                                <li>無線LAN</li>
+                                <li>コンセント4口</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shipping-info">
+                <h3 class="animate-on-scroll">📦 荷物の配送について</h3>
+                <div class="shipping-card animate-on-scroll">
+                    <h4>📮 荷物の送り先</h4>
+                    <div class="address">
+                        <p><strong>AiHUB株式会社</strong></p>
+                        <p>〒101-0041</p>
+                        <p>東京都千代田区神田須田町2丁目1−1 MA SQUARE AKIHABARA 4F</p>
+                        <p><strong>宛先：</strong>AIHUB 新井宛</p>
+                        <p><strong>連絡先：</strong>09032339255</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notes">
+                <h3 class="animate-on-scroll">⚠️ 注意事項！⚠️</h3>
+                <div class="notes-grid">
+                    <div class="note-item animate-on-scroll">
+                        <i class="fas fa-utensils"></i>
+                        <div>
+                            <h4>🍱 昼食について</h4>
+                            <p>各自でご用意くださいね</p>
+                        </div>
+                    </div>
+                    <div class="note-item animate-on-scroll">
+                        <i class="fas fa-glass-cheers"></i>
+                        <div>
+                            <h4>🍻 出展者交流会について</h4>
+                            <p>お菓子・ソフトドリンク・アルコールを有志で用意します！持ち込みも大歓迎です</p>
+                        </div>
+                    </div>
+                    <div class="note-item animate-on-scroll">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h4>💎 貴重品管理</h4>
+                            <p>各自で責任を持って管理してくださいね</p>
+                        </div>
+                    </div>
+                    <div class="note-item animate-on-scroll">
+                        <i class="fas fa-building"></i>
+                        <div>
+                            <h4>🏢 会場利用について</h4>
+                            <p>普通のオフィスをお借りして開催するので、会場の備品には触らないようお願いします</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">💬 質問がある時は</h2>
+            <div class="contact-card animate-on-scroll">
+                <p>質問や相談があるときは</p>
+                <div class="discord-info">
+                    <i class="fab fa-discord"></i>
+                    <div>
+                        <h4>AiCommunity Discordサーバー</h4>
+                        <p>みんてくチャンネルで気軽に声をかけてください✨</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 みんなのテクノロジーお披露目会（みんてく）</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript無効時の緊急対策 -->
+    <noscript>
+        <style>
+            .animate-on-scroll {
+                opacity: 1 !important;
+                transform: translateY(0) !important;
+                animation: none !important;
+            }
+        </style>
+    </noscript>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
